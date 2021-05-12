@@ -1,0 +1,4 @@
+*crt
+*key
+*pem
+/json/configuration.json

@@ -1,0 +1,51 @@
+{
+  "silio1":
+  {
+    "sensors":null,
+    "tempExternal":21,
+    "humidity":0,
+    "pressure": 1
+  },
+  "silio2":
+  {
+    "sensors":null,
+    "tempExternal":21,
+    "humidity":0,
+    "pressure": 1
+  },
+  "silio3":
+  {
+    "sensors":null,
+    "tempExternal":21,
+    "humidity":0,
+    "pressure": 1
+  },
+  "silio4":
+  {
+    "sensors":null,
+    "tempExternal":21,
+    "humidity":0,
+    "pressure": 1
+  },
+  "silio5":
+  {
+    "sensors":null,
+    "tempExternal":21,
+    "humidity":0,
+    "pressure": 1
+  },
+  "silio6":
+  {
+    "sensors":null,
+    "tempExternal":21,
+    "humidity":0,
+    "pressure": 1
+  },
+  "silio7":
+  {
+    "sensors":null,
+    "tempExternal":21,
+    "humidity":0,
+    "pressure": 1
+  }
+}
