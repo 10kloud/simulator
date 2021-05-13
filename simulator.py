@@ -12,6 +12,6 @@ silio = Silio(7)
 iotCore.StartConnection()
 while True:
     data = silio.Event()
-    print(json.dumps(data, indent=4, sort_keys=True))
+    #print(json.dumps(data, indent=4, sort_keys=True))
     iotCore.Publish(data)
     time.sleep(5)

@@ -16,7 +16,7 @@ class Silio:
         self.nSilios = nSilios
 
         #set other parameter
-        self.interval = 4
+        self.interval = 4.15
         self.time = 0.00
     def Event(self):
         for i in range(self.nSilios):
@@ -26,5 +26,7 @@ class Silio:
                 self.silioSystem['silio'+str(k)]['lenght'] = random.uniform(0.1, 1.0) #random lenght
             self.silioSystem['silio'+str(k)]['value'] = RandomSIN.Random(self.silioSystem['silio'+str(k)]['lenght'], self.silioSystem['silio'+str(k)]['startPosition'], self.interval, self.time)
             self.silioData['silio'+str(k)]['sensors'] = int(self.silioSystem['silio'+str(k)]['value'])
-            return self.silioData
+        print(json.dumps(self.silioSystem, indent=4, sort_keys=True))
+        self.time += 0.1
+        return self.silioData
     
