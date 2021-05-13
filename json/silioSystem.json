@@ -1,44 +1,191 @@
 {
   "silio1":
   {
-    "startPosition":null,
-    "lenght":null,
-    "value":null
+    "level":
+    {
+      "startPosition":null,
+      "lenght":null,
+      "value":null
+    },
+    "tempExternal":
+    {
+      "startPosition":null,
+      "lenght":null,
+      "value":null
+    },
+    "humidityExternal":
+    {
+      "startPosition":null,
+      "lenght":null,
+      "value":null
+    },
+    "pressureInternal":
+    {
+      "startPosition":null,
+      "lenght":null,
+      "value":null
+    }
   },
   "silio2":
   {
-    "startPosition":null,
-    "lenght":null,
-    "value":null
+    "level":
+    {
+      "startPosition":null,
+      "lenght":null,
+      "value":null
+    },
+    "tempExternal":
+    {
+      "startPosition":null,
+      "lenght":null,
+      "value":null
+    },
+    "humidityExternal":
+    {
+      "startPosition":null,
+      "lenght":null,
+      "value":null
+    },
+    "pressureInternal":
+    {
+      "startPosition":null,
+      "lenght":null,
+      "value":null
+    }
   },
   "silio3":
   {
-    "startPosition":null,
-    "lenght":null,
-    "value":null
+    "level":
+    {
+      "startPosition":null,
+      "lenght":null,
+      "value":null
+    },
+    "tempExternal":
+    {
+      "startPosition":null,
+      "lenght":null,
+      "value":null
+    },
+    "humidityExternal":
+    {
+      "startPosition":null,
+      "lenght":null,
+      "value":null
+    },
+    "pressureInternal":
+    {
+      "startPosition":null,
+      "lenght":null,
+      "value":null
+    }
   },
   "silio4":
   {
-    "startPosition":null,
-    "lenght":null,
-    "value":null
+    "level":
+    {
+      "startPosition":null,
+      "lenght":null,
+      "value":null
+    },
+    "tempExternal":
+    {
+      "startPosition":null,
+      "lenght":null,
+      "value":null
+    },
+    "humidityExternal":
+    {
+      "startPosition":null,
+      "lenght":null,
+      "value":null
+    },
+    "pressureInternal":
+    {
+      "startPosition":null,
+      "lenght":null,
+      "value":null
+    }
   },
   "silio5":
   {
-    "startPosition":null,
-    "lenght":null,
-    "value":null
+    "level":
+    {
+      "startPosition":null,
+      "lenght":null,
+      "value":null
+    },
+    "tempExternal":
+    {
+      "startPosition":null,
+      "lenght":null,
+      "value":null
+    },
+    "humidityExternal":
+    {
+      "startPosition":null,
+      "lenght":null,
+      "value":null
+    },
+    "pressureInternal":
+    {
+      "startPosition":null,
+      "lenght":null,
+      "value":null
+    }
   },
   "silio6":
   {
-    "startPosition":null,
-    "lenght":null,
-    "value":null
+    "level":
+    {
+      "startPosition":null,
+      "lenght":null,
+      "value":null
+    },
+    "tempExternal":
+    {
+      "startPosition":null,
+      "lenght":null,
+      "value":null
+    },
+    "humidityExternal":
+    {
+      "startPosition":null,
+      "lenght":null,
+      "value":null
+    },
+    "pressureInternal":
+    {
+      "startPosition":null,
+      "lenght":null,
+      "value":null
+    }
   },
   "silio7":
   {
-    "startPosition":null,
-    "lenght":null,
-    "value":null
+    "level":
+    {
+      "startPosition":null,
+      "lenght":null,
+      "value":null
+    },
+    "tempExternal":
+    {
+      "startPosition":null,
+      "lenght":null,
+      "value":null
+    },
+    "humidityExternal":
+    {
+      "startPosition":null,
+      "lenght":null,
+      "value":null
+    },
+    "pressureInternal":
+    {
+      "startPosition":null,
+      "lenght":null,
+      "value":null
+    }
   }
 }
