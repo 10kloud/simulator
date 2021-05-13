@@ -1,3 +1,4 @@
+import json
 import AWSIoTPythonSDK.MQTTLib as AWSIoTMQTT
 class IoTCore:
     def __init__(self, pem, key, crt, endpoint, port, topic):
@@ -16,7 +17,7 @@ class IoTCore:
         self.myAWSIoTMQTTClient.disconnect()
     def Publish(self, data):
         try:
-            self.myAWSIoTMQTTClient.publish(self.topic, str(data), 1)
+            self.myAWSIoTMQTTClient.publish(self.topic, json.dumps(data), 0)
             print("Shipped success!")
             print("Data: "+str(data))
         except:
