@@ -34,13 +34,13 @@ class Silio:
                 self.silioSystem['silio'+str(k)]['level']['startPosition'] = random.randint(0, 10) #random start level
                 self.silioSystem['silio'+str(k)]['level']['lenght'] = random.uniform(0.1, 1.0) #random lenght
                 #random for the temperature min:-20 max:40
-                self.silioSystem['silio'+str(k)]['tempExternal']['startPosition'] = 0.4 #start level
+                self.silioSystem['silio'+str(k)]['tempExternal']['startPosition'] = random.uniform(-0.1,0.1) #start level
                 self.silioSystem['silio'+str(k)]['tempExternal']['lenght'] = random.uniform(0.03, 0.05) #random lenght
                 #random for umidity
                 self.silioSystem['silio'+str(k)]['humidityExternal']['startPosition'] = -0.5 #start level
                 self.silioSystem['silio'+str(k)]['humidityExternal']['lenght'] = random.uniform(0.08, 0.1) #random lenght
                 #random for pressureInternal
-                self.silioSystem['silio'+str(k)]['pressureInternal']['startPosition'] = 0.4 #start level
+                self.silioSystem['silio'+str(k)]['pressureInternal']['startPosition'] = self.silioSystem['silio'+str(k)]['tempExternal']['startPosition'] #start level
                 self.silioSystem['silio'+str(k)]['pressureInternal']['lenght'] = self.silioSystem['silio'+str(k)]['tempExternal']['lenght'] #random lenght
             #random for level
             self.silioSystem['silio'+str(k)]['level']['value'] = RandomSIN.Random(self.silioSystem['silio'+str(k)]['level']['lenght'], self.silioSystem['silio'+str(k)]['level']['startPosition'], self.intervalLevel, self.intervalLevel, self.time)
