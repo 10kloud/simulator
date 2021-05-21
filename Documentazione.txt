@@ -1,0 +1,50 @@
+#############################
+Documentazione del simulatore
+#############################
+
+main:
+-simulator.py
+
+terze parti:
+-Silo.py
+-RandomSIN
+-IoTCore.py
+
+file configurazione:
+-configuration.json
+-siloData.json
+-siloSystem.json
+
+file siloSystem.json:
+in questo file troviamo una struttura già creata in default in json che ci servirà
+a generare i valori per level, pressure, humidity e temperature.
+
+file siloData.json:
+in questo file troviamo una struttura già creata in defaulkt in json che ci servirà
+a mettere i valori finali e pubblicarli per poi essere inserito nel timestream
+
+file configuration.json(non visibile su github):
+per funzionare la comunicazione tra client e IoTCore presente su aws, ha bisogno di una serie di file
+di sicurezza.
+Poi altri campi come endpoint, password e altre informazioni sensibili
+
+file IoTCore.py:
+in questo file c'è il metodo "__init__" che serve a inilizare il client per quando deve aprire la comunicazione con IoTCore.
+Prima di iniziare a pubblicare dobbiamo usare questo metodo "StartConnection" che ci permette di aprire la comunicazione con IoTCore.
+Per pubblicare i nostri record basta usare questo metodo "Publish"
+
+file RandomSIN.py:
+la generazione casuale viene effettuata all'inizio nel file Silo.py, per apportare una simulazione reale abbiamo pensato di usare la funzione sin()
+che non è altro una sinusoide e in base il tempo che va avanti il dato incomincia a salire o scendere.
+Una volta arrivato il picco massimo si inverte la loro crescita/decresita e via così all'infinito.
+Il metodo si usa questa funziona "Random" e ha bisogno di 5 variabili per far funzionare perchè non basta solo la funzion sin().
+Ho ideato questa espressione sin(time*length+startPosition)*interval+interval
+time = x --> il tempo (es. 0.1, 0.2, 0.3 ecc...)
+lenght = la lunghezza della "parabola"
+startPosition = valore di partenza sull'asse Y con la posizione di X = 0
+interval = in range di minimo e massimo di un valore (es. voglio che il silo sale fino y=8 e scende fino y=0)
+
+file Silo.py
+In questo file è presente due metodi importanti, il primo è "__init__" che carica i file di configurazione di siloData e siloSystem.
+Il secondo metodo è "Event" se è la prima volta viene generato dei dati casuali (basando sui range appositamente studiati)
+altrimenti verrà incrementato il valore time per avanzare gli eventi dei sensori.

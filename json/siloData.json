@@ -1,55 +1,55 @@
 {
-  "silio1":
+  "silo1":
   {
-    "sensor_id":"silio_1",
+    "sensor_id":"silo_1",
     "level":null,
     "tempExternal":null,
     "humidityExternal":null,
     "pressureInternal": null
   },
-  "silio2":
+  "silo2":
   {
-    "sensor_id":"silio_2",
+    "sensor_id":"silo_2",
     "level":null,
     "tempExternal":null,
     "humidityExternal":null,
     "pressureInternal": null
   },
-  "silio3":
+  "silo3":
   {
-    "sensor_id":"silio_3",
+    "sensor_id":"silo_3",
     "level":null,
     "tempExternal":null,
     "humidityExternal":null,
     "pressureInternal": null
   },
-  "silio4":
+  "silo4":
   {
-    "sensor_id":"silio_4",
+    "sensor_id":"silo_4",
     "level":null,
     "tempExternal":null,
     "humidityExternal":null,
     "pressureInternal": null
   },
-  "silio5":
+  "silo5":
   {
-    "sensor_id":"silio_5",
+    "sensor_id":"silo_5",
     "level":null,
     "tempExternal":null,
     "humidityExternal":null,
     "pressureInternal": null
   },
-  "silio6":
+  "silo6":
   {
-    "sensor_id":"silio_6",
+    "sensor_id":"silo_6",
     "level":null,
     "tempExternal":null,
     "humidityExternal":null,
     "pressureInternal": null
   },
-  "silio7":
+  "silo7":
   {
-    "sensor_id":"silio_7",
+    "sensor_id":"silo_7",
     "level":null,
     "tempExternal":null,
     "humidityExternal":null,
