@@ -15,4 +15,4 @@ while True:
     #print(json.dumps(data, indent=4, sort_keys=True))
     for i in range(7):
         iotCore.Publish(data['silo'+str(i+1)])
-    time.sleep(10)
+    time.sleep(1)

@@ -59,6 +59,6 @@ class Silo:
             #set pressureInternal
             self.siloData['silo'+str(k)]['pressureInternal'] = self.siloSystem['silo'+str(k)]['pressureInternal']['value']
         print(json.dumps(self.siloSystem, indent=4, sort_keys=True))
-        self.time += 0.1
+        self.time += 0.01
         return self.siloData
     

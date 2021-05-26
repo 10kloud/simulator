@@ -5,7 +5,8 @@
     "level":null,
     "tempExternal":null,
     "humidityExternal":null,
-    "pressureInternal": null
+    "pressureInternal": null,
+    "zone":"zona_1"
   },
   "silo2":
   {
@@ -13,7 +14,8 @@
     "level":null,
     "tempExternal":null,
     "humidityExternal":null,
-    "pressureInternal": null
+    "pressureInternal": null,
+    "zone":"zona_1"
   },
   "silo3":
   {
@@ -21,7 +23,8 @@
     "level":null,
     "tempExternal":null,
     "humidityExternal":null,
-    "pressureInternal": null
+    "pressureInternal": null,
+    "zone":"zona_1"
   },
   "silo4":
   {
@@ -29,7 +32,8 @@
     "level":null,
     "tempExternal":null,
     "humidityExternal":null,
-    "pressureInternal": null
+    "pressureInternal": null,
+    "zone":"zona_1"
   },
   "silo5":
   {
@@ -37,7 +41,8 @@
     "level":null,
     "tempExternal":null,
     "humidityExternal":null,
-    "pressureInternal": null
+    "pressureInternal": null,
+    "zone":"zona_2"
   },
   "silo6":
   {
@@ -45,7 +50,8 @@
     "level":null,
     "tempExternal":null,
     "humidityExternal":null,
-    "pressureInternal": null
+    "pressureInternal": null,
+    "zone":"zona_2"
   },
   "silo7":
   {
@@ -53,6 +59,7 @@
     "level":null,
     "tempExternal":null,
     "humidityExternal":null,
-    "pressureInternal": null
+    "pressureInternal": null,
+    "zone":"zona_2"
   }
 }
