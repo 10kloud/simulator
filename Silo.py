@@ -47,9 +47,9 @@ class Silo:
             #random for tempExternal
             self.siloSystem['silo'+str(k)]['tempExternal']['value'] = RandomSIN.Random(self.siloSystem['silo'+str(k)]['tempExternal']['lenght'], self.siloSystem['silo'+str(k)]['tempExternal']['startPosition'], self.intervalExternal, self.intervalExternal1, self.time)
             #random for humidityExternal
-            self.siloSystem['silo'+str(k)]['humidityExternal']['value'] = RandomSIN.Random(self.siloSystem['silo'+str(k)]['humidityExternal']['lenght'], self.siloSystem['silo'+str(k)]['humidityExternal']['startPosition'], self.humidityExternal, self.humidityExternal, self.time)
+            self.siloSystem['silo'+str(k)]['humidityExternal']['value'] = round(RandomSIN.Random(self.siloSystem['silo'+str(k)]['humidityExternal']['lenght'], self.siloSystem['silo'+str(k)]['humidityExternal']['startPosition'], self.humidityExternal, self.humidityExternal, self.time), 3)
             #random for pressureInternal
-            self.siloSystem['silo'+str(k)]['pressureInternal']['value'] = RandomSIN.Random(self.siloSystem['silo'+str(k)]['pressureInternal']['lenght'], self.siloSystem['silo'+str(k)]['pressureInternal']['startPosition'], self.humidityExternal, self.humidityExternal, self.time)
+            self.siloSystem['silo'+str(k)]['pressureInternal']['value'] = round(RandomSIN.Random(self.siloSystem['silo'+str(k)]['pressureInternal']['lenght'], self.siloSystem['silo'+str(k)]['pressureInternal']['startPosition'], self.humidityExternal, self.humidityExternal, self.time), 3)
             #set level
             self.siloData['silo'+str(k)]['level'] = int(self.siloSystem['silo'+str(k)]['level']['value'])
             #set tempExternal
